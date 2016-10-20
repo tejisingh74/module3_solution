@@ -1,0 +1,7 @@
+  <ul>
+       <li ng-repeat="item in ctrl.foundItems">{{item.name}}-{{item.short_name}}-{{item.description}}
+           <button ng-click='ctrl.deleteThisItem({itemIndex: $index})'>Delete This Item</button>
+      </li>
+           
+           </ul>
+<!--<div ng-if='ctrl.checkIfEmpty();'>OOPs No More Products</div>-->
