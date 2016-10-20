@@ -1,6 +1,6 @@
   <ul>
        <li ng-repeat="item in ctrl.foundItems"><h2>{{item.short_name}}|{{item.name}}</h2><h5>{{item.description}}</h5>
-           <button ng-click='ctrl.deleteThisItem({itemIndex: $index})'>Delete This Item</button>
+           <button class="button button-calm" ng-click='ctrl.deleteThisItem({itemIndex: $index})'>Delete This Item</button>
       </li>
            
            </ul>
